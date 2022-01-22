@@ -1,0 +1,26 @@
+{
+  "name": "avalanche-js-network",
+  "version": "0.2.0",
+  "description": "network suites for avalanche",
+  "main": "dist/index.js",
+  "node": "dist/index.js",
+  "browser": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "jsnext:main": "dist/index.esm.js",
+  "typings": "dist/index.d.ts",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "neeboo@firestack.one",
+  "license": "MIT",
+  "dependencies": {
+    "avalanche-js-utils": "git://github.com/oavax/avalanche-js-utils.git",
+    "cross-fetch": "^3.0.2",
+    "mitt": "^1.2.0",
+    "websocket": "^1.0.28"
+  }
+}
